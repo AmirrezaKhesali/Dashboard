@@ -58,8 +58,7 @@ function App() {
 
           <div className='w-100 vh-100 position-fixed' style={{backgroundColor : '#fcfcfc' , zIndex : '-1'}} />
           <Routes >
-            <Route path='/' element={<Full_wallet />} />
-            <Route path='/welcome' element={<Wellcome />} />
+            <Route path='/' element={<Dashboard />} />
             <Route path='/2' element={<OTP_L2 />} />
             <Route path='/info' element={<Levels_All />} />
             <Route path='/info/1' element={<Info_1 />} />
