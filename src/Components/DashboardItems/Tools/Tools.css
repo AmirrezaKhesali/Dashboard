@@ -1,0 +1,126 @@
+.aside-backdrop {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1101;
+    transform: translate3d(100%, 0, 0);
+    transition: opacity .3s linear;
+    opacity: 0;
+}
+
+.color-co-white {
+    color: white !important;
+}
+
+.color-co-black {
+    color: black !important;
+}
+
+.backdrop-opacity {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    transition: opacity .3s linear;
+}
+
+.side-bascket-main {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 85%;
+    z-index: 100001;
+    background-color: #1a1b3a;
+}
+
+.add-btn {
+    height: 30px;
+    width: 35px;
+    border-end-end-radius: 30px;
+    border-start-end-radius: 30px;
+    margin-right: 1rem;
+    background-color: #061c2f;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cuz-bord-head {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: .5rem;
+    margin-bottom: 1rem !important;
+}
+
+.adad-dis {
+    /* background-color: #2a2449; */
+    border-radius: 8px;
+    color: black !important;
+    padding: 0.95rem 0.87rem !important;
+    box-shadow: 0px 0px 6px -6px black;
+}
+
+.shive-buybasket2 {
+    padding: 0.25rem 2rem;
+    background-color: #fffffff0;
+    border-radius: 50%;
+}
+
+.h4-buybasket2 {}
+
+.icon-qalam {
+    font-size: 16px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5rem;
+}
+
+.f-right-qalam {
+    font-size: 16px;
+    padding: 0.5rem;
+    color: black;
+}
+
+.line-qalam {
+    border: 1px solid black;
+    margin: 0rem 1rem;
+}
+
+.s-right-qalam {
+    font-size: 16px;
+    padding: 0.5rem;
+    color: lightblue;
+}
+
+
+.sub-shive {
+    display: block;
+    width: 100%;
+    border-top: 1px solid rgb(197, 197, 197);
+    position: relative;
+    top: 1rem;
+    z-index: -1;
+}
+
+.nega-btn {
+    height: 30px;
+    width: 35px;
+    border-start-start-radius: 30px;
+    border-end-start-radius: 30px;
+    margin-left: 1rem;
+    background-color: #061c2f;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}

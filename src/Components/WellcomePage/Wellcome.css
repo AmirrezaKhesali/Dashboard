@@ -1,0 +1,43 @@
+.head-well {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    height: 100px;
+    width: 100vw;
+    padding: 0.25rem 1rem;
+    z-index: 10000;
+}
+.box-head-well{
+    height: 94%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bg-well-fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    z-index: -1;
+}
+
+
+
+@media only screen and (max-width : 600px ){
+    .box-head-well {
+        width: 55%;
+    }
+    .head-well{
+        height: 80px;
+    }
+}
